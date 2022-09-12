@@ -1,0 +1,54 @@
+body {
+    background-color: #bceaee80
+}
+
+h1 {
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Carter One', cursive;
+    text-align: center;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Carter One', cursive;
+    align-items: center;
+}
+
+input {
+    width: 30%;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.login-btn {
+    width: 30%;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.logout.btn {
+    opacity: 0.7;
+}
+
+.current-user {}
+
+.buttons {
+    width: 30%;
+    align-items: center;
+    margin: 1px;
+}
+
+.abc-buttons {
+    margin: 1px;
+}
+
+.difficulty-input {
+    padding: 1px;
+}

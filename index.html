@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JsFolder/model.js"></script>
+    <script src="JsFolder/modelplayerlist.js"></script>
+    <script src="JsFolder/common.js"></script>
+    <script src="JsFolder/resultView.js"></script>
+    <script src="JsFolder/resultController.js"></script>
+    <script src="JsFolder/logInView.js"></script>
+    <script src="JsFolder/logInController.js"></script>
+    <script src="JsFolder/leaderBoardView.js"></script>
+    <script src="JsFolder/leaderBoardController.js"></script>
+    <script src="JsFolder/gameView.js"></script>
+    <script src="JsFolder/gameController.js"></script>
+    <script src="JsFolder/createUserView.js"></script>
+    <script src="JsFolder/createUserController.js"></script>
+    <script src="JsFolder/victoryPage.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script>
+        updateView();
+
+
+
+        function updateView() {
+
+            if (model.currentPage == 'login') updateViewLogin();
+            if (model.currentPage == 'createUser') updateViewCreate();
+            if (model.currentPage == 'game') updateViewGame();
+            if (model.currentPage == 'win') updateViewWin();
+            if (model.currentPage == 'resultPage') updateViewResult();
+            if (model.currentPage == 'leaderBoard') updateViewLeaderBoard();
+
+
+
+
+
+
+        }
+        checkJson();
+    </script>
+</body>
+
+</html>
