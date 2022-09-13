@@ -252,7 +252,7 @@ if( model.difficulty == "fem") {
         model.theNewArray[index].color = 'black'
 
     }
-    if (model.theNewArray[index].clicks == 7) {
+    if (model.theNewArray[index].clicks >= 7) {
         model.theNewArray[index].color = ''
         model.theNewArray[index].clicks = 0
     } 
@@ -294,7 +294,7 @@ if( model.difficulty == "fem") {
         model.theNewArray[index].color = 'black'
        
     }  
-    if (model.theNewArray[index].clicks == 9) {
+    if (model.theNewArray[index].clicks >= 9) {
         model.theNewArray[index].color = ''
         model.theNewArray[index].clicks = 0
     }  
